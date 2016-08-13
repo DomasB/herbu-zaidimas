@@ -1,0 +1,219 @@
+﻿<html>
+<head>
+<title>Herbų testas</title>
+<script>
+var herbai = [[' Žemaičių Naumiesčio herbas','ZemaiciuNaumiestis.gif'],[' Žemaičių Kalvarijos herbas','Zemaiciu_Kalvarija_COA.gif'],['Želvos herbas','ZelvaCOA.jpeg'],[' Žeimių herbas','ŽeimiaiCOA.JPG'],[' Žeimelio herbas','Coat_of_arms_of_Žeimelis.png'],[' Žaslių herbas','Zasliai_COA.gif'],[' Žarėnų herbas','Zarenuherbas.PNG'],[' Žagarės herbas','Coat_of_arms_of_Žagarė.png'],[' Zarasų herbas','Coat_of_arms_of_Zarasai.gif'],[' Zapyškio herbas','Zapyskis_COA.jpg'],[' Vyžuonų herbas','Vyzuonosherbas.png'],[' Vištyčio herbas','Vistytis_COA.png'],[' Visagino herbas','Visaginas_coat_of_arms.png'],[' Virbalio herbas','Virbalis_COA.gif'],[' Vilniaus herbas','Coat_of_arms_of_Vilnius_Gold.png'],[' Vilkyškių herbas','Vilkyskiuherbas.png'],[' Vilkijos herbas','Vilkija_COA.jpg'],[' Vilkaviškio herbas','Coat_of_arms_of_Vilkaviškis.png'],[' Vievio herbas','Vievis_COA.gif'],[' Viešvilės herbas','Viesvilesherbas.PNG'],[' Viešvėnų herbas','ViesvenaiCOA.jpg'],[' Viešintų herbas','Viesintuherbas.png'],[' Viekšnių herbas','LIT_Wieksznie_COA.jpg'],[' Viduklės herbas','VidukleCOA.jpg'],[' Vėžaičių herbas','Vezaiciuherbas.png'],[' Ventos herbas','Venta_COA.gif'],[' Velžio herbas','Velzioherbas.png'],[' Veliuonos herbas','Veliuona_COA.gif'],[' Veiviržėnų herbas','VeivirzenaiCOA.gif'],[' Veiverių herbas','Veiverių_herbas.jpg'],[' Veisiejų herbas','LIT_Wiejsieje_COA.gif'],[' Vaškų herbas','Vasku_coa.jpg'],[' Varėnos herbas','Varena_COA.gif'],[' Varnių herbas','Varniai_COA.gif'],[' Vandžiogalos herbas','Vandžiogalos_herbas.jpg'],[' Valkininkų herbas','Valkininkai_COA.gif'],[' Vainuto herbas','Vainutoherbas.png'],[' Vaiguvos herbas','Vaiguvosherbas.PNG'],[' Vadoklių herbas','Vadokliuherbas.PNG'],[' Vabalninko herbas','Vabalninkas_COA.gif'],[' Užvenčio herbas','Uzventis_COA.gif'],[' Užusalių herbas','Uzusaliuherbas.PNG'],[' Užpalių herbas','Uzpaliu_herbas.jpg'],[' Užliedžių herbas','Uzliedziuherbas.PNG'],[' Utenos herbas','Utena_COA.gif'],[' Usėnų herbas','Usenuherbas.PNG'],[' Upytės herbas','UpyteCOA.gif'],[' Upynos herbas','Upynosherbas.PNG'],[' Upninkų herbas','Upninkai_COA.png'],[' Ukmergės herbas','Ukmerge_COA.gif'],[' Tytuvėnų herbas','TytuvenaiCOA.jpg'],[' Tverų herbas','Tveruherbas.PNG'],[' Turgelių herbas','Turgeliuherbas.PNG'],[' Tryškių herbas','Tryskiai_COA.gif'],[' Troškūnų herbas','TroskunaiCOA.jpg'],[' Traupio herbas','Traupioherbas.PNG'],[' Trakų herbas','Coat_of_arms_of_Trakai_(Lithuania).png'],[' Tirkšlių herbas','TirksliaiCOA.jpg'],[' Telšių herbas','Telsiai_coat_of_arms.png'],[' Tauragės herbas','Taurage_COA.gif'],[' Tauragnų herbas','TauragnaiCOA.gif'],[' Taujėnų herbas','TaujenaiCOA.jpg'],[' Šėtos herbas','Seta_COA.jpg'],[' Švėkšnos herbas','Sveksna_COA.gif'],[' Šventosios herbas','Sventosiosherbas.png'],[' Švenčionėlių herbas','Svencioneliai_COA.gif'],[' Švenčionių herbas','Herb_Święcian.png'],[' Šveicarijos herbas (Jonava)','Sveicarijosherbas.png'],[' Šunskų herbas','Sunskuherbas.png'],[' Širvintų herbas','Sirvintos_COA.gif'],[' Šiluvos herbas','Siluva_COA.gif'],[' Šilutės herbas','Coat_of_arms_of_Silute_(Lithuania).png'],[' Šilavoto herbas','SilavotasCOA.jpg'],[' Šilalės herbas','Coat_of_arms_of_Šilalė.png'],[' Šilagalio herbas','Silagalioherbas.png'],[' Šiaulėnų herbas','Siaulenai_coat_of_arms.gif'],[' Šiaulių herbas','Siauliai_city_COA.gif'],[' Šeštokų herbas','Sestokai.gif'],[' Šeduvos herbas','Seduva_COA.gif'],[' Šaukėnų herbas','Coat_of_arms_of_Šaukėnai.png'],[' Šaukoto herbas','SaukotasCOA.gif'],[' Šalčininkų herbas','Herb_Soleczników.png'],[' Šakynos herbas','Coat_of_Arms_of_Sakyna.gif'],[' Šakių herbas','Sakiai_COA.gif'],[' Šačių herbas','Saciuherbas.png'],[' Svėdasų herbas','Svedasai_COA.gif'],[' Surviliškio herbas','Surviliskioherbas.PNG'],[' Sudeikių herbas','Sudeikiai_COA.gif'],[' Sudargo herbas','SudargasCOA.jpg'],[' Stoniškių herbas','Stoniskiuherbas.png'],[' Stakliškių herbas','Stakliskes_COA.gif'],[' Smilgių herbas','Smilgiuherbas.png'],[' Slengių herbas','Slengiuherbas.png'],[' Skuodo herbas','Skuodas_COA.gif'],[' Skirsnemunės herbas','Skirsnemune_COA.gif'],[' Skiemonių herbas','Skiemoniuherbas.png'],[' Skaudvilės herbas','LIT_Skaudwile_COA.jpg'],[' Skaistgirio herbas','Skaistgirioherbas.png'],[' Sintautų herbas','Sintautai_COA.gif'],[' Simno herbas','Simnas_COA.gif'],[' Siesikų herbas','Siesikai.gif'],[' Sidabravo herbas','Sidabravas.gif'],[' Seredžiaus herbas','Seredzius_COA.gif'],[' Senųjų Trakų herbas','SeniejiTrakaiCOA.jpg'],[' Senosios Varėnos herbas','SenosiosVarenosherbas.png'],[' Semeliškių herbas','Semeliskes_COA.gif'],[' Seirijų herbas','Seirijai_COA.png'],[' Sedos herbas','Seda_COA.gif'],[' Saugų herbas','Sauguherbas.PNG'],[' Satkūnų herbas','Satkunuherbas.PNG'],[' Sasnavos herbas','SasnavaCOA.gif'],[' Sartininkų herbas','Sartininkuherbas.PNG'],[' Samylų herbas','Samyluherbas.PNG'],[' Saločių herbas','Salociuherbas.png'],[' Saldutiškio herbas','Saldutiskis_COA.gif'],[' Salantų herbas','Salantai_COA.gif'],[' Salako herbas','Coat_of_arms_of_Salakas_(Lithuania).png'],[' Rusnės herbas','Rusnesherbas.png'],[' Rumšiškių herbas','Rumsiskes_COA.gif'],[' Rūdiškių herbas','Rudiskiuherbas2.PNG'],[' Rudiškių herbas','Rudiskiuherbas.png'],[' Rozalimo herbas','Rozalimas_COA.gif'],[' Rokų herbas','Rokuherbas.png'],[' Rokiškio herbas','Rokiskis_COA.gif'],[' Ringaudų herbas','Ringauduherbas.PNG'],[' Rietavo herbas','Rietavas_COA.gif'],[' Raudonės herbas','Raudone_CoA.jpg'],[' Raudondvario herbas','Raudodvario_COA.jpg'],[' Raudėnų herbas','Coat_of_Arms_of_Raudenai.gif'],[' Raseinių herbas','Raseiniai_COA.gif'],[' Ramygalos herbas','Ramygalosherbas.png'],[' Raguvos herbas','Raguvosherbas.png'],[' Radviliškio herbas','Radviliskis_COA.gif'],[' Pušaloto herbas','Pusalotoherbas.PNG'],[' Punios herbas','Punia_COA.gif'],[' Pumpėnų herbas','Pumpenuherbas.png'],[' Prienų herbas','Prienai_COA.gif'],[' Priekulės herbas','Priekule_COA.gif'],[' Plungės herbas','Plunge_COA.gif'],[' Plokščių herbas','Ploksciai_COA.gif'],[' Platelių herbas','Plateliai.gif'],[' Pivašiūnų herbas','Pivasiunuherbas.png'],[' Pilviškių herbas','Pilviskiai_COA.gif'],[' Piliuonos herbas','Piluonosherbas.PNG'],[' Pernaravos herbas','Pernaravosherbas.png'],[' Perlojos herbas','Perloja_COA.gif'],[' Pašvitinio herbas','Pasvitinys_COA.gif'],[' Paįstrio herbas','Paistrioherbas.png'],[' Pasvalio herbas','Pasvalys_COA.gif'],[' Pastrėvio herbas','Pastrevioherbas.PNG'],[' Papilės herbas','Papile_COA.gif'],[' Panevėžio herbas','Coat_of_Arms_of_Panevezys.png'],[' Pandėlio herbas','Pandelys_COA.gif'],[' Paluknio herbas','Paluknioherbas.PNG'],[' Palomenės herbas','Palomenesherbas.PNG'],[' Palangos herbas','Palanga_COA.gif'],[' Pakuonio herbas','Pakuonis_COA.gif'],[' Pakruojo herbas','Pakruojis_COA.gif'],[' Pajūrio herbas','Pajurioherbas.png'],[' Pajevonio herbas','Pajevonys_COA.gif'],[' Pagramančio herbas','Pagramancioherbas.PNG'],[' Pagėgių herbas','Pagegiai_COA.gif'],[' Pabradės herbas','Pabradesherbas.png'],[' Paberžės herbas','Paberzesherbas.png'],[' Pabaisko herbas','Pabaiskoherbas.PNG'],[' Onuškio herbas','Onuskioherbas.PNG'],[' Obelių herbas','Obeliai_COA.gif'],[' Notėnų herbas','Notenuherbas.PNG'],[' Neveronių herbas','Coat_of_arms_of_Neveronys_(Lithuania).png'],[' Nevarėnų herbas','Nevarenai_COA.gif'],[' Neringos herbas','Neringa_COA.gif'],[' Nemunėlio Radviliškio herbas','NemunelioRadviliskioherbas.png'],[' Nemunaičio herbas','Nemunaitis_COA.gif'],[' Nemenčinės herbas','Nemencine_COA.gif'],[' Nemakščių herbas','Nemaksciuherbas.png'],[' Naujosios Ūtos herbas','NaujosiosUtosherbas.png'],[' Naujosios Akmenės herbas','Naujoji_Akmene_COA.gif'],[' Naujamiesčio herbas','Naujamiescioherbas.PNG'],[' Mosėdžio herbas','Mosedis_COA.gif'],[' Molėtų herbas','Coat_of_arms_of_Moletai_(Lithuania).png'],[' Miroslavo herbas','Miroslavas_COA.gif'],[' Miežiškių herbas','Mieziskiuherbas.PNG'],[' Mielagėnų herbas','Mielagenuherbas.PNG'],[' Mickūnų herbas','Mickunuherbas.png'],[' Meškuičių herbas','Meskuiciai_COA.gif'],[' Merkinės herbas','Merkine_COA.gif'],[' Mažonų herbas','Mazonuherbas.png'],[' Mažeikių herbas','Coat_of_arms_of_Mazeikiai_(Lithuania).png'],[' Marijampolės herbas','Marijampole_COA.gif'],[' Marcinkonių herbas','Marcinkonys_COA.gif'],[' Maišiagalos herbas','Maisiagala_COA.gif'],[' Lygumų herbas','Lygumai_COA.gif'],[' Luokės herbas','Luokesherbas.JPG'],[' Lukšių herbas','Luksiai.gif'],[' Liudvinavo herbas','Liudvinavas.gif'],[' Liolių herbas','Lioliuherbas.png'],[' Linksmakalnio herbas','Linksmakalnioherbas.png'],[' Linkuvos herbas','Linkuva_COA.gif'],[' Lentvario herbas','Coat_of_arms_of_Lentvaris.png'],[' Lenkimų herbas','Lenkimuherbas.png'],[' Leliūnų herbas','Leliunai_COA.gif'],[' Lekėčių herbas','Lekeciai_COA.gif'],[' Leipalingio herbas','Leipalingis_COA.gif'],[' Leckavos herbas','Leckavosherbas.PNG'],[' Lazdijų herbas','Lazdijai_COA.gif'],[' Laukuvos herbas','Laukuva_COA.gif'],[' Lapių herbas','Lapių_herbas.jpg'],[' Laižuvos herbas','Laizuvosherbas.PNG'],[' Labanoro herbas','Labanoroherbas.png'],[' Krakių herbas','Krakiuherbas.PNG'],[' Kėdainių herbas','Kedainiai_COA.gif'],[' Kybartų herbas','Kybartai_COA.gif'],[' Kvietinių herbas','Kvietiniuherbas.png'],[' Kvėdarnos herbas','Kvedarna_COA.gif'],[' Kužių herbas','Kuziai_COA.gif'],[' Kuršėnų herbas','Kursenai_COA.gif'],[' Kupiškio herbas','Kupiskis_COA.gif'],[' Kulių herbas','Kuliuherbas.png'],[' Kulautuvos herbas','Kulautuva_COA.gif'],[' Kuktiškių herbas','Kuktiskes_COA.gif'],[' Kudirkos Naumiesčio herbas','Kudirkos_Naumiestis_COA.gif'],[' Kruopių herbas','Kruopiai_COA.gif'],[' Kruonio herbas','Kruonioherbas.png'],[' Krosnos herbas','Krosna_COA.gif'],[' Krokialaukio herbas','Krokialaukioherbas.png'],[' Kriūkų herbas','Kriukiai_COA.gif'],[' Kriukų herbas','Kriukuherbas.png'],[' Krinčino herbas','Krincinoherbas.png'],[' Kretingalės herbas','Kretingalesherbas.png'],[' Kretingos herbas','Kretinga_COA.gif'],[' Krekenavos herbas','Krekenavosherbas.png'],[' Kražių herbas','Kraziai.gif'],[' Klovainių herbas','Klovainiai_COA.gif'],[' Klausučių herbas','Klausuciuherbas.PNG'],[' Klaipėdos herbas','Coat_of_arms_of_Klaipeda_(Lithuania).png'],[' Kirkilų herbas','Kirkiluherbas.PNG'],[' Kintų herbas','Kintuherbas.PNG'],[' Kietaviškių herbas','Kietaviskes_COA.gif'],[' Kidulių herbas','Kiduliai_COA.gif'],[' Keturvalakių herbas','Keturvalakiuherbas.PNG'],[' Kernavės herbas','Kernave_COA.gif'],[' Kelmės herbas','Kelmes-herbas.png'],[' Kačerginės herbas','Kacergine_COA.gif'],[' Kazokiškių herbas','Kazokiskes.gif'],[' Kazlų Rūdos herbas','Coat_of_arms_of_Kazlu_Ruda_(Lithuania).png'],[' Kavarsko herbas','Kavarsko_herbas.jpg'],[' Kauno herbas','Kaunas_city_COA.png'],[' Katyčių herbas','Katyciuherbas.png'],[' Kartenos herbas','Kartena_COA.gif'],[' Karsakiškio herbas','KarsakiskisCOA.jpg'],[' Karmėlavos herbas','Karmelava_COA.gif'],[' Kapčiamiesčio herbas','Kapciamiestis_COA.png'],[' Kamajų herbas','--GFDL--_Kamajai1.jpg'],[' Kalvarijos herbas','Kalvarija_COA.gif'],[' Kaltinėnų herbas','Kaltinenuherbas.png'],[' Kaltanėnų herbas','Kaltanenuherbas.PNG'],[' Kaišiadorių herbas','Kaisiadorys_COA.gif'],[' Kairių herbas','Kairiai.gif'],[' Jūrės herbas','Juresherbas.png'],[' Jurbarko herbas','Jurbarkas_COA.gif'],[' Juodupės herbas','Juodupesherbas.png'],[' Juknaičių herbas','Juknaiciuherbas.PNG'],[' Judrėnų herbas','Judrenuherbas.png'],[' Josvainių herbas','Josvainiai_COA.png'],[' Joniškėlio herbas','LIT_Johaniszkiele_COA.jpg'],[' Joniškio herbas','Coat_of_arms_of_Joniskis.png'],[' Jonavos herbas','Coat_of_arms_of_Jonava_(Lithuania).png'],[' Jiezno herbas','Jieznas_COA.gif'],[' Jašiūnų herbas','Coat_of_arms_of_Jašiūnai.png'],[' Ylakių herbas','Coat_of_arms_of_Ylakiai_(Lithuania).png'],[' Išlaužo herbas','Išlaužo_herbas.jpg'],[' Ignalinos herbas','Coat_of_arms_of_Ignalina_(Lithuania).png'],[' Gruzdžių herbas','Gruzdziai_COA.gif'],[' Griškabūdžio herbas','Griskabudis_COA.gif'],[' Grinkiškio herbas','Grinkiskis-COA.png'],[' Grigiškių herbas','Grigiskes_COA.gif'],[' Grendavės herbas','Grendavesherbas.PNG'],[' Gražiškių herbas','Graziskiai_COA.gif'],[' Gižų herbas','Gizuherbas.PNG'],[' Girkalnio herbas','Girkalnis_COA.jpg'],[' Girdžių herbas','Girdziuherbas.png'],[' Ginkūnų herbas','Ginkunai_COA.gif'],[' Gilučių herbas','Giluciuherbas.PNG'],[' Giedraičių herbas','Giedraiciai_COA.gif'],[' Gelgaudiškio herbas','Gelgaudiskis_COA.gif'],[' Gaurės herbas','Gaure_COA.gif'],[' Garliavos herbas','Garliava_COA.gif'],[' Gargždų herbas','Gargzdai_COA.gif'],[' Gardamo herbas','Gardamoherbas.PNG'],[' Gaižaičių herbas','Gaizaiciuherbas.png'],[' Ežerėlio herbas','Ezerelis_COA.png'],[' Endriejavo herbas','Endriejavoherbas.PNG'],[' Elektrėnų herbas','Elektrenai_COA.gif'],[' Eišiškių herbas','Eisiskes_COA.gif'],[' Dūkšto herbas','Dukstoherbas.PNG'],[' Dusetų herbas','Dusetos_COA.gif'],[' Druskininkų herbas','Coat_of_arms_of_Druskininkai_(Lithuania).png'],[' Dovilų herbas','Doviluherbas.PNG'],[' Domeikavos herbas','Domeikava_COA.gif'],[' Dieveniškių herbas','Dieveniskes_COA.png'],[' Deltuvos herbas','Deltuvosherbas.PNG'],[' Degučių herbas','DeguciaiSiluteherbas.png'],[' Degučių herbas','Deguciuherbas.PNG'],[' Debeikių herbas','Debeikiai_COA.gif'],[' Daujėnų herbas','Daujenai_COA.gif'],[' Daugailių herbas','Coat_of_arms_of_Daugailiai.png'],[' Daugų herbas','Coat_of_arms_of_Daugai.png'],[' Čekiškės herbas','Cekiske_COA.gif'],[' Butrimonių herbas','Coat_of_arms_of_Butrimonys.png'],[' Buivydžių herbas','Buivydziuherbas.png'],[' Bubių herbas','Bubiuherbas.png'],[' Bubių herbas','Coat_of_arms_of_Bubiai.png'],[' Biržų herbas','Birzai_COA.gif'],[' Birštono herbas','Birstonas_COA.png'],[' Bijotų herbas','Bijotuherbas.PNG'],[' Betygalos herbas','Betygala_COA.gif'],[' Beižionių herbas','Beizioniuherbas.PNG'],[' Batakių herbas','Batakiuherbas.png'],[' Barzdų herbas','Coat_of_arms_of_Barzdai.png'],[' Bartninkų herbas','Coat_of_arms_of_Bartninkai.png'],[' Barstyčių herbas','Barstyciuherbas.PNG'],[' Baltosios Vokės herbas','Herb_Białej_Waki.png'],[' Balninkų herbas','Balninkuherbas.png'],[' Balbieriškio herbas','Balbieriskis_COA.png'],[' Baisogalos herbas','Baisiogala_COA.gif'],[' Babtų herbas','Babtai_COA.gif'],[' Aukštadvario herbas','Aukstadvarioherbas.png'],[' Ašmintos herbas','Asmintosherbas.png'],[' Ariogalos herbas','Coat_of_arms_of_Ariogala.png'],[' Anykščių herbas','Anyksciai_COA.gif'],[' Antanavo herbas','Antanavoherbas.PNG'],[' Antalieptės herbas','Coat_of_arms_of_Antalieptė.png'],[' Andrioniškio herbas','Andrioniskioherbas.PNG'],[' Alytaus herbas','Coat_of_arms_of_Alytus_(Lithuania).png'],[' Alvito herbas','Alvitoherbas.JPG'],[' Alsėdžių herbas','Coat_of_arms_of_Alsėdžiai.png'],[' Alovės herbas','Alovesherbas.PNG'],[' Aleksandrijos (Skuodas) herbas','Aleksandrijosherbas.PNG'],[' Akmenės herbas','Coat_of_arms_of_Akmenė_(Lithuania).png'],[' Akademijos herbas','COA_Akademija_Kaunas.png'],[' Agluonėnų herbas','Agluonenuherbas.png'],[' Adutiškio herbas','AdutiskisCOA.gif']];
+function rand(a,b,c,i){
+	var r = Math.ceil(Math.random() * i-1);
+	if (r==a||r==b||r==c) return rand(a,b,c,i)
+	else
+	return r;
+}
+function tikr(a,b,c,d) {
+	if (a==true) { document.getElementById(b).className = "right";
+		document.getElementById("good").value++;
+		document.getElementById(c).disabled=true;
+		document.getElementById(c+100).disabled=true;
+		document.getElementById(c+200).disabled=true;
+		document.getElementById(c+300).disabled=true;
+		document.getElementById("taskai").value++;
+		document.getElementById("ats").innerHTML = "";
+	}
+	else {
+			document.getElementById(b).className = "wrong";
+			document.getElementById("bad").value++;
+			document.getElementById(c).disabled=true;
+			document.getElementById("ats").innerHTML = "<img src='img/"+herbai[d][1]+"'/> <p><span>Jūsų pasirinktas atsakymas: "+herbai[d][0]+"</span><p>"; 
+			if (c<300) {
+				document.getElementById(b-10).className = "right";
+				document.getElementById(c+100).disabled=true;
+				document.getElementById(c+200).disabled=true;
+				document.getElementById(c-100).disabled=true;
+			}
+			else if (c<400){
+				document.getElementById(b-20).className = "right";
+				document.getElementById(c+100).disabled=true;
+				document.getElementById(c-100).disabled=true;
+				document.getElementById(c-200).disabled=true;
+			} else {
+				document.getElementById(b-30).className = "right";
+				document.getElementById(c-100).disabled=true;
+				document.getElementById(c-200).disabled=true;
+				document.getElementById(c-300).disabled=true;
+			}
+			document.getElementById("taskai").value--;
+		};
+}
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+function create(){
+	shuffleArray(herbai);
+	document.getElementById("main").innerHTML ="";
+	document.getElementById("good").value = 0;
+	document.getElementById("bad").value = 0
+	document.getElementById("ats").innerHTML = "";
+	for (var i = 0; i<8;i++) {
+		var a = rand(i,i,i,herbai.length);
+		var b = rand(i,i,a,herbai.length);
+		var c = rand(i,a,b,herbai.length);
+		var q1 = "<div id='1"+i+"'><input type='radio' id='10"+i+"' onClick='tikr(true,1"+i+",10"+i+")' name='group"+i+"' value='"+herbai[i][0]+"'>"+herbai[i][0]+"</div>";
+		var q2 = "<div id='2"+i+"'><input type='radio' id='20"+i+"' onClick='tikr(false,2"+i+",20"+i+","+a+")'name='group"+i+"' value='"+herbai[a][0]+"'>"+herbai[a][0]+"</div>";
+		var q3 = "<div id='3"+i+"'><input type='radio' id='30"+i+"' onClick='tikr(false,3"+i+",30"+i+","+b+")'name='group"+i+"' value='"+herbai[b][0]+"'>"+herbai[b][0]+"</div>";
+		var q4 = "<div id='4"+i+"'><input type='radio' id='40"+i+"' onClick='tikr(false,4"+i+",40"+i+","+c+")'name='group"+i+"' value='"+herbai[c][0]+"'>"+herbai[c][0]+"</div>";
+		var q=[q1,q2,q3,q4];
+		var v = rand(5,5,5,q.length);
+		var x = rand(v,5,5,q.length);
+		var y = rand(v,x,5,q.length);
+		var z = rand(v,x,y,q.length);
+		document.getElementById("main").innerHTML = document.getElementById("main").innerHTML + "<div class='question'>"+"<img src='img/"+ herbai[i][1]+"'/>"+q[v]+q[x]+q[y]+q[z]+"</div>";
+	}
+}
+</script>
+<style>
+div.question {
+	display:inline-block;
+	padding:10px;
+	margin:2px;
+	border: 1px solid #D1D1D1;
+	width:250px;
+	height:175px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-topradius:6px;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to top, #F7F7F7 0%, #FFFFFF 100%);
+}
+.question img, #ats img {
+	margin: 0px 0px 10px 45px;
+	height:75px;
+	width:60px;
+}
+
+.question div {
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-topradius:4px;
+	margin:2px;
+	padding-bottom:1px;
+}
+
+button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	-webkit-border-radius:9px;
+	-moz-border-radius:9px;
+	border-radius:9px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:36px;
+	width:158px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+	
+}
+
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}
+
+input {
+	width:25px;
+    border:none;
+    margin-bottom: 2px;
+    background: #FFF; 
+    font-size: 20px; 
+    box-shadow: none;
+    box-sizing: content-box;
+    font-weight:bold;
+}
+span {
+	font-size: 20px; 
+	font-weight:bold;
+}
+
+.right {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+}
+
+.wrong {
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FF6161),
+		color-stop(1, #870F0F)
+	);
+	background-image: -o-linear-gradient(bottom, #FF6161 0%, #870F0F 100%);
+	background-image: -moz-linear-gradient(bottom, #FF6161 0%, #870F0F 100%);
+	background-image: -webkit-linear-gradient(bottom, #FF6161 0%, #870F0F 100%);
+	background-image: -ms-linear-gradient(bottom, #FF6161 0%, #870F0F 100%);
+	background-image: linear-gradient(to bottom, #FF6161 0%, #870F0F 100%);
+	color:#FFF
+	}
+
+#menu {
+	width: 380px;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(top, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to top, #F7F7F7 0%, #FFFFFF 100%);
+	border: 1px solid #D1D1D1;
+	margin:5px 2px;
+	padding: 5px 5px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-topradius:6px;
+}
+
+</style>
+</head>
+<body onLoad="create()">
+	<div id="main"></div>
+	<div id="menu">
+		<input disabled="true" id="good"><img src="img/good_mark.png"/> 
+		<input disabled="true" id="bad"><img src="img/bad_mark.png"/> 
+		<span>Taškai:</span> 
+		<input id="taskai" disabled="true" name="Tašlai" value="0">
+		<button onClick="create()">Iš naujo</button> 
+	</div>
+	<div id="ats"></div>
+</body>
+</html>
